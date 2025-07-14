@@ -1,0 +1,171 @@
+const artworksData = [
+  {
+    id: 1,
+    title: 'Virat Kohli Sketch IPL 2025',
+    category: 'Sketches',
+    image: '/images/virat.jpg',
+    link: 'https://www.instagram.com/p/DKpGcF7JO-i/?igsh=MnhqeTB3Y3ViYzZo',
+  },
+  {
+    id: 2,
+    title: 'Shree Ram Painting',
+    category: 'Paintings',
+    image: '/images/shreeram.jpg',
+    link: 'https://www.instagram.com/p/DGfiW39JM4B/?igsh=aDNmdG5na3g2dnht',
+  },
+  {
+    id: 3,
+    title: 'Ganesh ji Painting',
+    category: 'Paintings',
+    image: '/images/shreeganesha.jpg',
+    link: 'https://www.instagram.com/p/DE2HAwTyHbS/?igsh=MWdvN2Ryempnenowbg==',
+  },
+  {
+    id: 4,
+    title: 'Shree Krishna Sketch',
+    category: 'Sketches',
+    image: '/images/shreekrishn.jpg',
+    link: 'https://www.instagram.com/p/C8j89q8vuq2/?igsh=MTFwcjU5bTF3aHBpNw==',
+  },
+  {
+    id: 5,
+    title: 'Shiv ji Sketch',
+    category: 'Sketches',
+    image: '/images/mahadev.jpg',
+    link: 'https://www.instagram.com/p/CwsQTITvbd3/?igsh=MWtnYXgxdnhwN2hmNQ==',
+  },
+  
+  {
+    id: 16,
+    title: 'Ken Kaneki',
+    category: 'Anime',
+    image: '/images/kenkaneki.jpg',
+    link: 'https://www.instagram.com/p/C92RqpzPNR8/?img_index=4&igsh=MWZoOTFvdzM0bm80ZQ==',
+  },
+  {
+    id: 6,
+    title: 'Ram Mandir Drawing',
+    category: 'Paintings',
+    image: '/images/rammandir.jpg',
+    link: 'https://www.instagram.com/p/C2Y4OjgvSQW/?img_index=1&igsh=NWl3cDRtZDY2bW95',
+  },
+  
+  {
+    id: 9,
+    title: 'Calligraphy',
+    category: 'Calligraphy',
+    image: '/images/cali1.jpg',
+    link: 'https://in.pinterest.com/saumya_creations/',
+  },
+  
+  {
+    id: 7,
+    title: 'IGDTUW live sketch',
+    category: 'Sketches',
+    image: '/images/ig.jpg',
+    link: 'https://www.instagram.com/p/Cx3FFJTvQMO/?img_index=1&igsh=MWJraXgxa2lmdzIxOQ==',
+  },
+  {
+    id: 8,
+    title: 'Portrait sketch',
+    category: 'Sketches',
+    image: '/images/sam.jpg',
+    link: 'https://www.instagram.com/p/C5f0iaQyYN-/?igsh=bmMxNXZocTV0eXJv',
+  },
+  {
+    id: 18,
+    title: 'BTS sketch',
+    category: 'sketches',
+    image: '/images/namjoon.jpg',
+    link: 'https://youtube.com/shorts/hXVAdQfkD1k?si=U17IS1nJl-5I-zBg',
+  },
+  
+  {
+    id: 10,
+    title: 'Hanuman ji sketch',
+    category: 'Sketches',
+    image: '/images/hanumanji.jpg',
+    link: 'https://www.instagram.com/p/C6F336ay9kP/?igsh=MXF4aDAzdjE0YWUxcA==',
+  },
+  {
+    id: 11,
+    title: 'Madhubani Painting',
+    category: 'Paintings',
+    image: '/images/madhubani.jpg',
+    link: 'https://www.instagram.com/p/C_xr8b_vQ_J/?igsh=NGkzYjB5eW52dGxq',
+  },
+  
+  {
+    id: 12,
+    title: 'Amitabh Bachchan Caricature',
+    category: 'Caricature',
+    image: '/images/amitabh.jpg',
+    link: 'https://in.pinterest.com/saumya_creations/',
+  },
+  {
+    id: 13,
+    title: 'Calligraphy',
+    category: 'Calligraphy',
+    image: '/images/cali2.jpg',
+    link: 'https://in.pinterest.com/saumya_creations/',
+  },
+  {
+    id: 14,
+    title: 'BTS sketch',
+    category: 'Sketches',
+    image: '/images/suga.jpg',
+    link: 'https://youtube.com/shorts/hXVAdQfkD1k?si=U17IS1nJl-5I-zBg',
+  },
+  {
+    id: 15,
+    title: 'Calligraphy',
+    category: 'Calligraphy',
+    image: '/images/cali3.jpg',
+    link: 'https://in.pinterest.com/saumya_creations/',
+  },
+  {
+    id: 17,
+    title: 'Anime Character listening to music',
+    category: 'Anime',
+    image: '/images/music.jpg',
+    link: 'https://www.instagram.com/p/CuhgI0jP3ue/?igsh=MWluc240NmhjdnBnZw==',
+  },
+  {
+    id: 19,
+    title: 'Anime girl',
+    category: 'Anime',
+    image: '/images/anime1.jpg',
+    link: 'https://www.instagram.com/p/C92RqpzPNR8/?img_index=4&igsh=MWZoOTFvdzM0bm80ZQ==',
+  },
+  {
+    id: 20,
+    title: 'Calligraphy',
+    category: 'Calligraphy',
+    image: '/images/cali4.jpg',
+    link: 'https://in.pinterest.com/pin/618611698852130717/',
+  },
+  {
+    id: 21,
+    title: 'Naruto',
+    category: 'Anime',
+    image: '/images/naruto.jpg',
+    link: 'https://in.pinterest.com/pin/618611698851999840/',
+  },
+  {
+    id: 22,
+    title: 'Anime girl',
+    category: 'Anime',
+    image: '/images/anime2.jpg',
+    link: 'https://www.instagram.com/p/C92RqpzPNR8/?img_index=4&igsh=MWZoOTFvdzM0bm80ZQ==',
+  },
+  {
+    id: 23,
+    title: 'Calligraphy',
+    category: 'Calligraphy',
+    image: '/images/cali5.jpg',
+    link: 'https://in.pinterest.com/saumya_creations/',
+  },
+  // Add more artworks
+];
+
+export default artworksData;
