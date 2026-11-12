@@ -24,6 +24,14 @@ const hallOfFameData = [
     link: 'https://www.youtube.com/shorts/DleESM_aEVU',
   },
   {
+    image: '/images/parmish.jpg',
+    name: 'Parmish Verma',
+    location: 'IGDTUW, Delhi',
+    date: '22 October 2026',
+    story: 'During IGDTUW’s cultural fest, I gifted Parmish Verma a handmade sketch while he was performing on stage. He noticed my artwork, acknowledged it, and even shook hands with me. Definitely a moment to remember!',
+    link: 'https://www.instagram.com/reel/De7BOnhp1Fl/',
+  },
+  {
     image: '/images/tanu.jpg',
     name: 'Tanu Jain',
     location: 'DTU, Delhi',
