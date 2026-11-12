@@ -24,7 +24,7 @@ const hallOfFameData = [
     link: 'https://www.youtube.com/shorts/DleESM_aEVU',
   },
   {
-    image: '/images/parmish.jpg',
+    image: '/images/parmish.jpeg',
     name: 'Parmish Verma',
     location: 'IGDTUW, Delhi',
     date: '22 October 2026',
