@@ -14,7 +14,7 @@ export default function Navbar() {
         </div>
 
         <ul className="text-white hidden md:flex space-x-6">
-          <li className="hover:text-red-300 transition duration-200 cursor-pointer"><a href="#">Home</a></li>
+          <li className="hover:text-red-300 transition duration-200 cursor-pointer"><a href="/">Home</a></li>
           <li className="hover:text-red-300 transition duration-200 cursor-pointer"><a href="#gallery">Gallery</a></li>
           <li className="hover:text-red-300 transition duration-200 cursor-pointer"><a href="#hall-of-fame">Hall of Fame</a></li>
           <li className="hover:text-red-300 transition duration-200 cursor-pointer"><a href="#connect">Connect</a></li>
